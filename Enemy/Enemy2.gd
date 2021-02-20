@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-onready var HUD = get_node("/root/Game/HUD")
+onready var HUD= get_node("/root/Game/HUD")
 
 export var speed = Vector2(0,3)
 export var health = 100
@@ -8,7 +8,7 @@ export var points = 10
 export var damage = 50
 
 onready var Explosion = load("res://Explosion/Explosion.tscn")
-onready var Sound = get_node("/root/Game/Cow")
+onready var Sound = get_node("/root/Game/Narwhal")
 
 
 func _physics_process(delta):
